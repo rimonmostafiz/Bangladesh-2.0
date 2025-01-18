@@ -10,25 +10,87 @@ body {
     background-color: F5F5F5;
 }
 
-.nav {
+header {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+main {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+.nav-container {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 24px 0;
+}
+
+.nav-title {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 24px 160px;
 }
 
-.title {
+.nav-title h2 {
     font-weight: bold;
     font-size: 32px;
-    color: 0E0E0E;
+    color: #0E0E0E;
 }
 
-.btn-sign-in {
+.nav-title .nav-btn {
     color: #006A50;
     padding: 15px 30px;
     font-weight: 600;
     font-size: 18px;
-    border-color: #006A50;
     border-radius: 10px;
-    background-color: white;
+    background: none;
+    border: 1px solid #006A50;
+}
+
+.nav-title .nav-btn:hover {
+    background-color: #006A50;
+    color: white;
+    cursor: pointer;
+}
+
+.banner {
+    background-color: #C6E4D6;
+    border-radius: 10px;
+    width: 1280px;
+    margin: 0 auto 80px;
+}
+
+.banner-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 117px 59.99px;
+    gap: 64px;
+}
+
+.banner-text h4 {
+    color: #0E0E0E;
+    opacity: 50%;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.banner-text h2 {
+    font-size: 56px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.banner-container .banner-btn {
+    color: white;
+    background-color: #006A50;
+    padding: 17px 34px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
 }
