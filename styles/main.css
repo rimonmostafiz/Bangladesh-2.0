@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: F5F5F5;
+    background-color: #F5F5F5 !important;
     opacity: 100%;
 }
 
@@ -165,7 +165,6 @@ main {
 }
 
 .vision-card {
-    border: 1px solid black;
     border-radius: 16px;
     padding: 24px;
     width: 410px;
@@ -193,7 +192,7 @@ main {
     opacity: 70%;
     margin: auto;
 }
- 
+
 /* .vision-card-blue {
     background-color: #81B4FC;
 } */
@@ -216,23 +215,23 @@ main {
     margin: 24px 0 0 0;
 }
 
-.vision-card-blue .vision-card-button { 
+.vision-card-blue .vision-card-button {
     background-color: #5490F5;
 }
 
-.vision-card-green .vision-card-button { 
+.vision-card-green .vision-card-button {
     background-color: #09A15C;
 }
 
-.vision-card-yellow .vision-card-button { 
+.vision-card-yellow .vision-card-button {
     background-color: #FFC239;
 }
 
 .chief-advisor {
     background-color: #FFFFFF;
-    border: 1px solid rgb(231, 230, 230);
+    /* border: 1px solid rgb(231, 230, 230); */
     max-width: 1280px;
-    max-height:256px;
+    max-height: 256px;
     margin: 0 auto;
     padding: 48px 24px;
     border-radius: 8px;
@@ -255,4 +254,88 @@ main {
 .intro p {
     color: #0E0E0E;
     opacity: 60%;
+}
+
+.opinion-header {
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.opinion-container {
+    padding: 32px;
+    border-radius: 16px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+}
+
+.opinion-table {
+    width: 100%;
+    align-items: center;
+    border-collapse: collapse;
+}
+
+.table-col-title th {
+    padding: 24px;
+    background-color: #C6E4D6;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    margin: 0 auto;
+}
+
+.table-row td {
+    padding: 24px;
+}
+
+/* .table-row:nth-child(2) {
+    align-items: right;
+    margin: auto 0;
+} */
+
+/* .sel-opt-data select{
+    align-items: right;
+} */
+
+.table-col-title:nth-child(1) {
+    text-align: left;
+}
+
+.table-col-title:nth-child(2) {
+    text-align: right;
+}
+
+table,
+th,
+td {
+    border: 2px solid rgb(238, 233, 233);
+}
+
+.table-select-option {
+    background-color: #C6E4D6;
+    border-radius: 4px;
+    padding: 14px;
+    border: 2px solid #0E0E0E;
+}
+
+.table-select-option .option {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.table-row td:nth-child(1) {
+    font-size: 16;
+    font-weight: 600;
+    padding: 24px;
+    width: 75%;
+}
+
+.table-row td:nth-child(2) {
+    width: 20%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sel-opt-data select {
+    width: 152px;
 }
