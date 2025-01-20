@@ -8,6 +8,7 @@
 
 body {
     background-color: F5F5F5;
+    opacity: 100%;
 }
 
 header {
@@ -93,4 +94,165 @@ main {
     font-size: 18px;
     border-radius: 10px;
     border: none;
+}
+
+.piller .piller-header {
+    color: #0E0E0E;
+    font-weight: bold;
+    font-size: 40px;
+    height: 48px;
+    margin: 0 0 32px 0;
+}
+
+.piller-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 24px
+}
+
+.piller-card {
+    background-color: #FFFFFF;
+    border-radius: 16px;
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+    border: 3px solid whitesmoke
+}
+
+.piller-card-icon {
+    margin-bottom: 24px;
+}
+
+.piller-card-header {
+    font-weight: bold;
+    font-size: 20px;
+    color: #0E0E0E;
+    margin: 0 0 12px 0;
+    opacity: 80%;
+}
+
+.piller-card-paragraph {
+    font-size: 16;
+    font-weight: 400;
+    color: #0E0E0E;
+    opacity: 70%;
+    line-height: 24px;
+}
+
+.vision-container {
+    margin: 80px auto;
+}
+
+.vision-header h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.vision-header p {
+    font-size: 16px;
+    margin-top: 24px;
+    opacity: 70%;
+    line-height: 24px;
+}
+
+.vision-card-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 32px auto;
+    gap: 24px
+}
+
+.vision-card {
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 24px;
+    width: 410px;
+    height: 325px;
+    background-color: #D5E1F5;
+
+}
+
+.vision-card-header {
+    margin: 24px auto;
+    line-height: 24px;
+    font-size: 16px;
+}
+
+.vision-card-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 0 12px 0;
+    color: #0E0E0E;
+    opacity: 80%;
+}
+
+.vision-card-description {
+    color: #0E0E0E;
+    opacity: 70%;
+    margin: auto;
+}
+ 
+/* .vision-card-blue {
+    background-color: #81B4FC;
+} */
+
+.vision-card-green {
+    background-color: #C6E4D6;
+}
+
+.vision-card-yellow {
+    background-color: #F7EBCF;
+}
+
+.vision-card-button {
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    margin: 24px 0 0 0;
+}
+
+.vision-card-blue .vision-card-button { 
+    background-color: #5490F5;
+}
+
+.vision-card-green .vision-card-button { 
+    background-color: #09A15C;
+}
+
+.vision-card-yellow .vision-card-button { 
+    background-color: #FFC239;
+}
+
+.chief-advisor {
+    background-color: #FFFFFF;
+    border: 1px solid rgb(231, 230, 230);
+    max-width: 1280px;
+    max-height:256px;
+    margin: 0 auto;
+    padding: 48px 24px;
+    border-radius: 8px;
+}
+
+.chief-advisor .quote {
+    background-image: url("../assets/quote-bg.png");
+    background-repeat: no-repeat;
+    background-position: left top;
+    margin-bottom: 12px;
+}
+
+.intro h2 {
+    font-weight: 600;
+    font-size: 20;
+    opacity: 80%;
+    color: #0E0E0E;
+}
+
+.intro p {
+    color: #0E0E0E;
+    opacity: 60%;
 }
