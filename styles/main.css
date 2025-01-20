@@ -549,3 +549,13 @@ td {
     color: #0E0E0E;
     opacity: 50%;
 }
+
+button:hover {
+    color: black;
+    cursor: pointer;
+}
+
+.banner-btn:hover {
+    color: black;
+    cursor: pointer;
+}
